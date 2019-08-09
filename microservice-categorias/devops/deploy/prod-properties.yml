@@ -1,0 +1,12 @@
+- Properties:
+	namems: ms-categorias
+	port: 7001
+	containerPort: 8080
+	tag: 1-0
+	aplicacion: claroclub
+	containerName: categorias
+	ecs_cluster: CLUSTER-ECS-CLARO-CLUB-PROD
+	internal_invoke: 1
+	memory-reservation: 384
+	environment: produccion
+	loadBalancerARN: arn:aws:elasticloadbalancing:us-east-1:957838095201:loadbalancer/net/NLB-TO-ALB-PRODUCCION/103d6070e43062da

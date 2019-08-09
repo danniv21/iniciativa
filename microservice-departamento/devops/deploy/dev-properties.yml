@@ -1,0 +1,12 @@
+- Properties:
+	namems: ms-departamento-v1
+	port: 7102
+	containerPort: 8080
+	tag: dev
+	aplicacion: claroclub
+	containerName: departamentos-v1
+	ecs_cluster: CLUSTER-ECS-CLARO-CLUB-DEV
+	internal_invoke: 0
+	memory-reservation: 384
+	environment: desarrollo
+	loadBalancerARN: arn:aws:elasticloadbalancing:us-east-1:957838095201:loadbalancer/net/NLB-DESARROLLO-NEW/e19e41685bcaa442
